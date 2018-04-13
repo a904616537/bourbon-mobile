@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+		<meta name="description" content="">
+		<meta name="author" content="">
+	    <meta name="apple-mobile-web-app-capable" content="yes">
+	    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+	    <meta name = "format-detection" content="telephone = no" />
+		<meta name="Keywords" content="BOURBON,bourbon" />
+		<title>BOURBON</title>
+		<link rel="shortcut icon" href="static/imgs/logo.png">
+		<link rel="stylesheet" href="static/css/normalize.css" />
+		<link rel="stylesheet" href="static/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="static/css/iconfont.css" />
+		<link rel="stylesheet" type="text/css" href="static/css/jquery.vidbacking.css">
+		<link rel="stylesheet" href="static/css/style.css" />
+	</head>
+
+	<body>
+		<div class="left-menu changeLang">
+			<ul>
+				<li>
+					<a href="about.html">
+						<font class="en">ABOUT</font>
+						<font class="zh">关于我们</font>
+					</a>
+				</li>
+				<li>
+					<a href="menu.html">
+						<font class="en">MENU</font>
+						<font class="zh">菜单</font>
+					</a>
+				</li>
+				<li>
+					<a href="promotions.html">
+						<font class="en">PROMOTIONS</font>
+						<font class="zh">促销</font>
+					</a>
+				</li>
+				<li>
+					<a href="events.html">
+						<font class="en">EVENTS</font>
+						<font class="zh">活动</font>
+					</a>
+				</li>
+				<li>
+					<a href="gallery.html">
+						<font class="en">GALLERY</font>
+						<font class="zh">画廊</font>
+					</a>
+				</li>
+				<li>
+					<a href="careers.html">
+						<font class="en">CAREERS</font>
+						<font class="zh">招聘</font>
+					</a>
+				</li>
+				<li><a href="contact.html">
+					<font class="en">CONTACT US</font>
+					<font class="zh">联系我们</font></a>
+				</li>
+			</ul>
+			<div class="shelter" onclick="javascript:close_menu()"></div>
+		</div>
+		<div class="header changeLang">
+			<div class="float-left nav-bar">
+				<a onclick="javascript:open_menu()">
+					<img src="static/imgs/menu.png" class="nav-img" alt="zh"/>
+				</a>
+			</div>
+			<a href="index.html"><img src="static/imgs/logo-nav.png" class="nav-logo"/></a>
+			<div class="float-right nav-bar nav-lang">
+				<a href="javascript:;" class="langToggle"></a>
+			</div>
+		</div>
+
+		<div class="content" style="background-image: url(static/imgs/Menu/banner-1440*720.jpg)">
+			<div class="menu-splash changeLang">
+				<h2 class="menu-page-title">
+					<font class="en"><strong>OUR MENU</strong></font>
+					<font class="zh"><strong>我们的菜单</strong></font>
+				</h2>
+				<a href="#food">
+					<span class="menu-btn">
+						<font class="en">FOOD</font>
+						<font class="zh">食物</font>
+					</span> 
+				</a>
+				
+				<a href="#drinks">
+					<span class="menu-btn">
+						<font class="en">DRINK</font>
+						<font class="zh">酒水</font>
+					</span> 
+				</a>
+
+			</div>
+		</div>
+		<!--END:CONTENT-->
+
+
+		<!-- START:FOOD MENU -->
+		<div class="back-block">
+			<div class="inner-top changeLang">
+				
+				<ul class="menu"">
+
+					<!-- MENU TITLE -->
+					<div class="menu-title-container">
+						<div class="menu-title-space">
+							<span class="border-box"></span>
+							<span class="menu-title" id="food">
+								<font class="zh">主食</font>
+								<font class="en">FOOD MENU</font>
+							</span>
+							<span class="border-box"></span>
+						</div>
+					</div>
+					
+					<!-- SECTION 1 ITEMS -->
+					<h4 class="menu-section-headers ">American Bar – B – Que 美式烟熏BBQ</h4>
+					<p>
+                        <font class="en">
+    						Our BBQ takes up to 24 hours to have ready to serve at your table. Dry rubbed, smoked then grilled over charcoal. Finished with our House mop sauce.
+                        </font>
+                        <font class="zh">
+                            我们的BBQ使用了秘制配方，通过24个小时的腌制，烟熏及碳烤呈现在每位顾客的餐桌前
+                        </font>
+					</p>
+					<!-- MENU ITEMS -->
+					<li><span>USDA Beef Brisket</span><span>USDA果木熏牛胸250g</span></li>
+ 					<li><span>USDA Pork Ribs</span><span>USDA玻本猪肋排 HALF SLAB 半排(650g) &<br/>  FULL SLAB整排 (1.3kg)</span></li>
+ 					<li><span>USDA Pulled Pork Shoulder</span><span>USDA手撕猪肩肉250g</span></li>
+ 					<li><span>American Sausage</span><span>美式传统烟熏香肠</span></li>
+ 					<li><span style="white-space: pre ">Quarter Chicken</span><span>四分之一烟熏烤鸡肉</span></li>
+
+
+                    <h4 class="menu-section-headers ">Charcoal Grill - 果木炭烤</h4>
+                    <p>
+                        <font class="en">
+                            Coated in our secret grill rub.
+                        </font>
+                        <font class="zh">
+                            果木炭烤-特制烧烤调味
+                        </font>
+                    </p>
+                    <!-- MENU ITEMS -->
+                    <li><span>USDA Angus Rib Eye Steak</span><span>USDA安格斯肉眼牛排 300g</span></li>
+                    <li><span>USDA Angus Bone in Ribeye</span><span>USDA安格斯带骨眼肉牛排 800g</span></li>
+                    <li><span>Salmon steak</span><span>三文鱼排 220g</span></li>
+
+					<!-- Starters Section -->
+					<h4 class="menu-section-headers ">Starters 前菜</h4>
+
+					<li>
+						<span>
+							<font class="en ">Brisket Fries</font>
+							<font class="zh ">牛腩酱薯条</font>
+						</span>
+						<span>
+                            <font class="en">fries topped with chopped beef brisket, cheese, <br/> chipotle BBQ sauce and sour cream</font>
+							<font class="zh">(牛腩酱薯条--烟熏牛腩肉碎，奶酪，烟熏辣味烧烤酱，酸奶油)</font>
+						</span>
+					</li>
+					<li>
+						<span>
+							<font class="en ">Buffalo wings</font>
+							<font class="zh ">美式水牛城鸡翅</font>
+						</span>
+						<span>
+                            <font class="en">deep fried, tossed in buffalo sauce，with veg sticks and blue cheese sauce</font>
+                            <font class="zh">(美式水牛城鸡翅--炸鸡裹上水牛城酱，蓝芝士酱，蔬菜条)</font>
+						</span>
+					</li>
+					<li>
+						<span>
+							<font class="en ">Fried Cheese</font>
+							<font class="zh ">炸芝士</font>
+						</span>
+						<span >
+                            <font class="en">Italian mozzarella cheese smoked tomato chutney</font>
+							<font class="zh">(炸芝士-意大利马苏里拉芝士配烟熏番茄果蓉)</font>
+						</span>
+					</li>
+					<li>
+						<span>
+							<font class="en ">Onion Loaf</font>
+							<font class="zh ">洋葱千层面</font>
+						</span>
+						<span>
+                            <font class="en">crunchy fried onions, spicy mayo, and bourbon BBQ sauce</font>
+                            <font class="zh">(洋葱千层面-香脆洋葱，辣味蛋黄酱，玻本威士忌烧烤酱)</font>
+						</span>
+                	</li>
+                	<li>
+                        <span>
+							<font class="en">Mac n Cheese Bites</font>
+							<font class="zh">奶酪意面球</font>
+						</span>
+                        <span>
+                            <font class="en">macaroni with cheese sauce, breaded and fried; with smoked tomato chutney.</font>
+                        	<font class="zh">(奶酪意面球-马克罗尼芝士球配烟熏番茄果蓉)</font>
+						</span>
+                    </li>
+                    <li>
+                        <span>
+							<font class="en">Deep Fried Pickles</font>
+							<font class="zh">炸酸青瓜</font>
+						</span>
+                        <span>
+                            <font class="en">spicy breadcrumb coated gherkins served with spicy mayo</font>
+                        	<font class="zh">(炸酸青瓜-酸青瓜，香料面包糠裹炸，辣味蛋黄酱)</font>
+						</span>
+                    </li>
+
+
+
+
+
+                    <li>
+                        <span>
+							<font class="en">Buffalo Wings</font>
+							<font class="zh">美式水牛城鸡翅</font>
+						</span>
+                        <span>
+                            <font class="en">Deep fried chicken wings, tossed in buffalo sauce served with<br/> veg sticks and blue cheese sauce</font>
+                            <font class="zh">(美式水牛城鸡翅--蓝芝士酱，蔬菜条)</font>
+						</span>
+                    </li>
+                    <li>
+                        <span>
+							<font class="en">Smoked BBQ Wings</font>
+							<font class="zh">烟熏BBQ鸡翅</font>
+						</span>
+                        <span>
+                            <font class="en">Chicken wings smoked, then grilled; served with veg sticks<br/> and tossed in bourbon BBQ sauce</font>
+                            <font class="zh">(烟熏BBQ鸡翅--熏烤鸡翅，玻本威士忌烧烤酱，蔬菜条)</font>
+						</span>
+                    </li>
+                    <li>
+                        <span>
+							<font class="en">Buffalo Shrimp</font>
+							<font class="zh">美式水牛城大虾</font>
+						</span>
+                        <span>
+                            <font class="en">Marinated deep fried shrimp, tossed in buffalo sauce; served<br/> with veg sticks and creamy ranch dressing</font>
+                            <font class="zh">(美式水牛城大虾--布法罗大虾，奶油兰奇酱，蔬菜条)</font>
+						</span>
+                    </li>
+                    <li>
+                        <span>
+							<font class="en">Mac n Cheese Bites</font>
+							<font class="zh">奶酪意面球</font>
+						</span>
+                        <span>
+                            <font class="en">Macaroni with cheese sauce, breaded and fried; served with <br/>smoked tomato chutney.</font>
+                            <font class="zh">(奶酪意面球--烟熏番茄果蓉)</font>
+						</span>
+                    </li>
+                    <li>
+                        <span>
+							<font class="en">Warm Spinach Artichoke Dip</font>
+							<font class="zh">热洋蓟蘸酱</font>
+						</span>
+                        <span>
+                            <font class="en">Spinach, artichoke and cream cheese, topped with cheese<br/> and garlic corn breadcrumbs with garlic toast</font>
+                            <font class="zh">(热洋蓟蘸酱--菠菜，洋蓟，奶油芝士，混合芝士，蒜蓉玉米面包<br/>糠，黄油面包片)</font>
+						</span>
+                    </li>
+                    <li>
+                        <span>
+							<font class="en">Stuffed Jalapeños</font>
+							<font class="zh">墨西哥酿辣椒</font>
+						</span>
+		                <span>
+                            <font class="en">Whole jalapeños stuffed with pulled pork. Beer battered<br /> served with garlic mayo.</font>
+                            <font class="zh">(墨西哥酿辣椒--整颗墨西哥，辣椒猪肉丝，啤酒糊，蒜泥蛋黄酱)</font>
+						</span>
+                    </li>
+
+                    <!-- Starters Section -->
+					<h4 class="menu-section-headers">Mains 主菜</h4>
+                    <li>
+                        <span>
+							<font class="en">Country Fried Steak</font>
+							<font class="zh">德州炸牛排</font>
+						</span>
+                        <span>
+                        	<font class="en">Steak coated in secret spice flour mix, served with mashed potato,<br/> green beans,cheddar biscuit and cream gravy</font>
+                        	<font class="zh">(德州炸牛排-牛排包裹着神秘调料酥炸配奶油汁，土豆泥，炒青豆，奶酪芝士松饼)</font>
+						</span>
+                    </li>
+                    <li>
+                        <span>
+                            <font class="en">Chicken Waffles</font>
+                            <font class="zh">鸡肉华夫饼</font>
+                        </span>
+                        <span>
+                            <font class="en">chicken thighs coated in secret spice flour mix,<br/> cheese waffle and maple-bacon butter</font>
+                            <font class="zh">鸡肉华夫饼-脆炸鸡腿肉，枫糖培根黄油，芝士华夫饼</font>
+                        </span>
+                    </li>
+                    <!-- Starters Section -->
+                    <h4 class="menu-section-headers">Burgers汉堡-USDA GROUND BEEF USDA 牛肉糜</h4>
+                    <li>
+                        <span>
+                            <font class="en">Double BBQ Cheese Burger</font>
+                            <font class="zh">双层BBQ牛肉芝士汉堡</font>
+                        </span>
+                        <span>
+                            <font class="en">2 beef patties, American cheese, crispy bacon, and bourbon BBQ sauce</font>
+                            <font class="zh">2块碳烤牛肉饼，美式黄芝士，脆培根，玻本烧烤酱</font>
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            <font class="en">Pit -Masters Burger</font>
+                            <font class="zh">烧烤师汉堡</font>
+                        </span>
+                        <span>
+                            <font class="en">beef patty, smoked chicken, pulled pork, cheddar cheese， white BBQ sauce</font>
+                            <font class="zh">烧烤师汉堡- 碳烤牛肉饼，烟熏鸡肉，手撕猪肉，车达芝士白烧烤酱</font>
+                        </span>
+                    </li>
+
+                    <!-- Starters Section -->
+                    <h4 class="menu-section-headers">Dogs & Sandwiches热狗及三明治</h4>
+                    <li>
+                        <span>
+                            <font class="en">Shrimp Po Boys</font>
+                            <font class="zh">新奥尔良大虾三明治</font>
+                        </span>
+                        <span>
+                            <font class="en"> fried prawns, lettuce, tomato pickle and mustard<br/>a mayo in baguette bread</font>
+                            <font class="zh">新奥尔良大虾三明治-炒鲜虾仁，生菜，番茄，酸青瓜，芥末蛋黄酱，法棍</font>
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            <font class="en">Brisket Dip</font>
+                            <font class="zh">牛胸肉三明治</font>
+                        </span>
+                        <span>
+                            <font class="en">sliced beef brisket, sautéed onions and mushrooms,<br/> dipped in house gravy; in baguette bread</font>
+                            <font class="zh">牛胸肉三明治-手切牛胸肉，焦香洋葱，烤蘑菇，自制蘸酱，法棍</font>
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            <font class="en">Brisket Dog</font>
+                            <font class="zh">玻本烧烤牛肉热狗</font>
+                        </span>
+                        <span>
+                            <font class="en">pork sausage, chopped brisket, crispy onions, mustard and bourbon BBQ sauce</font>
+                            <font class="zh">玻本烧烤牛肉热狗-炙烤猪肉肠，玻本烧烤酱，碎切碳烤牛胸肉，洋葱脆，芥末酱</font>
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            <font class="en">Pulled Pork Dog</font>
+                            <font class="zh">手撕猪肉热狗</font>
+                        </span>
+                        <span>
+                            <font class="en">pork sausage dog, pulled pork, sautéed onions, mustard,<br/> garlic mayo and bourbon BBQ sauce</font>
+                            <font class="zh">手撕猪肉热狗-猪肉肠，手撕猪肉，芥末酱，蒜泥蛋黄酱，焦香炒洋葱，玻本烧烤酱</font>
+                        </span>
+                    </li>
+                    
+                    <!-- Starters Section -->
+                    <h4 class="menu-section-headers">Salads 蔬菜色拉</h4>
+                    <li>
+                        <span>
+                            <font class="en">Caesar</font>
+                            <font class="zh">凯撒色拉</font>
+                        </span>
+                        <span>
+                            <font class="en">romaine lettuce, garlic croutons, crispy bacon and parmesan; Caesar dressing </font>
+                            <font class="zh">凯撒色拉-罗马生菜，蒜蓉黄油面包，脆培根，帕玛森芝士，凯撒酱</font>
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            <font class="en">Chopped Cobb</font>
+                            <font class="zh">经典考博色拉</font>
+                        </span>
+                        <span>
+                            <font class="en">romaine lettuce, cheddar cheese, egg, avocado, bacon, chicken,<br/> tomato and spring onion; ranch dressing</font>
+                            <font class="zh">经典考博色拉-罗马生菜，车达芝士，鸡蛋，牛油果，培根，鸡肉，樱桃番茄，青葱，奶油兰奇酱</font>
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            <font class="en">Charred Iceberg Wedge</font>
+                            <font class="zh">碳烤生菜球</font>
+                        </span>
+                        <span>
+                            <font class="en">iceberg lettuce, blue cheese, chicken crackling bacon; creamy ranch dressing</font>
+                            <font class="zh">碳烤生菜球-球生菜，蓝芝士，脆培根，鸡皮脆，奶油兰奇酱</font>
+                        </span>
+                    </li>
+
+                    <!-- Starters Section -->
+                    <h4 class="menu-section-headers">Sides 配菜类</h4>
+                    <li>
+                        <span>
+                            <font class="en">Biscuits</font>
+                            <font class="zh">芝士松饼</font>
+                        </span>
+                        <span>
+                            <font class="en">aged cheddar cheese and black pepper</font>
+                            <font class="zh">芝士松饼-陈年车达芝士，黑胡椒</font>
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            <font class="en">Blue Cheese Fries</font>
+                            <font class="zh">蓝芝士薯条</font>
+                        </span>
+                        <span>
+                            <font class="en">Crumbled blue cheese and garlic mayo</font>
+                            <font class="zh">蓝芝士薯条-蓝芝士碎和蒜泥蛋黄酱</font>
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            <font class="en">Baked Beans</font>
+                            <font class="zh">自制烤豆</font>
+                        </span>
+                        <span>
+                            <font class="en">pinto beans, smoked tomato, brown sugar</font>
+                            <font class="zh">自制烤豆 - 烟熏番茄，芸豆，棕色糖</font>
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            <font class="en">Ultimate Mac n Cheese</font>
+                            <font class="zh">美利坚重磅芝士意面</font>
+                        </span>
+                        <span>
+                            <font class="en">our famous Mac n Cheese with beef brisket and Chicken Crackling</font>
+                            <font class="zh">美利坚重磅芝士意面 - 碎丝牛胸肉，鸡皮脆</font>
+                        </span>
+                    </li>
+                    
+                    <!-- Starters Section -->
+                    <h4 class="menu-section-headers">Desserts 甜点</h4>
+                    <li>
+                        <span>
+                            <font class="en">Brown Butter Pineapple Upside - Down Cake</font>
+                            <font class="zh">菠萝棕糖翻转蛋糕</font>
+                        </span>
+                        <span>
+                            <font class="en">caramel sauce and vanilla ice cream</font>
+                            <font class="zh">菠萝棕糖翻转蛋糕 - 焦糖酱，香草冰激凌</font>
+                        </span>
+                    </li>
+                     <li>
+                        <span>
+                            <font class="en">Bourbon Chocolate Mud Pie</font>
+                            <font class="zh">玻本巧克力熔岩派</font>
+                        </span>
+                        <span>
+                            <font class="en">biscuit base, chocolate Bourbon ganache,<br/> chocolate shavings and whipped cream</font>
+                            <font class="zh">玻本巧克力熔岩派 - 巧克力玻本甘纳许，巧克力碎，鲜奶油</font>
+                        </span>
+                    </li>
+
+                </ul>
+			</div>
+		</div>
+		<!-- START:DRINKS MENU -->
+        <div class="back-block" style="padding-top: 40px;">
+            <div class="inner-top changeLang">
+                <ul class="menu" ">
+					<!-- MENU TITLE -->
+					<div class="menu-title-container ">
+						<div class="menu-title-space ">
+							<span class="border-box "></span>
+							<span class="menu-title " id="drinks">
+								DRINKS MENU
+							</span>
+							<span class="border-box "></span>
+						</div>
+					</div>
+					<h4 class="drinks-section-headers">Draft beer</h4>
+                    <li>
+                        <span>
+                            Karl Strauss Aurora Hoppyalis 7%  USA
+                            
+                        </span>
+                        <span>北极光印度淡色艾尔</span>
+                    </li>
+                    <li>
+                        <span>
+                        	Stella 5%  BEL
+                        </span>
+                        <span>时代啤酒</span>
+                    </li>
+                    <li>
+                        <span>Jasmine Tea Ale 5.2%  CHN
+                        </span>
+                        <span>开吧清茉莉艾尔</span>
+                    </li>
+                    <li>
+                        <span>Hoegaarden 4.9%  BEL
+                        </span>
+                        <span>福佳白</span>
+                    </li>
+
+                    <h4 class="drinks-section-headers">Bottle</h4>
+                    <li>
+                        <span>
+                        	Shanghai Love Pale 5.2%  CHN
+                        </span>
+                        <span>ALE申爱淡星人</span>
+                    </li>
+                    <li>
+                        <span>
+                        	Master Gao Heroic water 5.3%  CHN
+                        </span>
+                        <span>英水帝江啤酒</span>
+                    </li>
+                    <li>
+                        <span>
+                        	Karl Strauss Mosaic Session IPA 5.5%  USA
+                        </span>
+                        <span>马赛克印度淡色艾尔</span>
+                    </li>
+
+                    <h4 class="drinks-section-headers">Bourbon cocktails</h4>
+                    <li>
+                        <span>
+                            <font class="en">Maple old fashioned</font>
+                            <font class="zh">枫糖古典鸡尾酒</font>
+                        </span>
+                        <span>
+                            <font class="en">house bourbon, canadian maple syrup, angostura bitter, soda water</font>
+                            <font class="zh">招牌玻本，加拿大枫叶糖浆，安格斯图拉苦精，苏打水</font>
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            <font class="en">Bourbon dark berry</font>
+                            <font class="zh">玻本黑莓鸡尾酒</font>
+                        </span>
+                        <span>
+                            <font class="en">house rye whiskey, giffard crème de mures, fresh lemon juice,<br/> egg white, aromatic bitter</font>
+                            <font class="zh">招牌玻本黑麦威士忌，吉发得黑莓利口酒，新鲜柠檬汁，蛋清，比特储斯芳香苦精</font>
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            <font class="en">Kiss me  (yes please!)</font>
+                            <font class="zh">吻我（等着呢！）</font>
+                        </span>
+                        <span>
+                            <font class="en">house bourbon, giffard strawberry, passion fruit juice, prosecco</font>
+                            <font class="zh">招牌玻本，吉发得草莓利口酒，百香果汁，普罗塞克起泡酒</font>
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            <font class="en">Jim Bean Vanilla coke</font>
+                            <font class="zh">占边香草可乐</font>
+                        </span>
+                        <span>
+                            <font class="en">jim bean, giffard vanilla de madagascar, coca-cola</font>
+                            <font class="zh">占边威士忌，吉发得马达加斯加香草，可口可乐</font>
+                        </span>
+                    </li>
+
+                    <h4 class="drinks-section-headers">Sweet, Strong or Sour</h4>
+                    <li>
+                        <span>
+                            <font class="en">Spiked peach crush</font>
+                            <font class="zh">疯狂的桃子</font>
+                        </span>
+                        <span>
+                            <font class="en">bombay sapphire, lillet white, peach puree, basil,<br/> fresh lemon juice, simple syrup</font>
+                            <font class="zh">孟买蓝宝石金酒，利莱白，桃茸，罗勒，鲜柠檬汁，糖浆</font>
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            <font class="en">La Escarlata</font>
+                            <font class="zh">红色激情</font>
+                        </span>
+                        <span>
+                            <font class="en">heike mate, strawberry puree, sip sip gold, fresh lime juice, simple syrup</font>
+                            <font class="zh">黑客马黛茶，草莓果茸，龙舌兰，鲜柠檬汁，糖浆</font>
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            <font class="en">Cote d'Azur Mimosa</font>
+                            <font class="zh">米默萨斯的海岸</font>
+                        </span>
+                        <span>
+                            <font class="en">stolichnaya vodka, chambord, pineapple juice, Prosecco</font>
+                            <font class="zh">苏联红，香博，菠萝汁，普罗塞克起泡酒</font>
+                        </span>
+                    </li>
+                    <h4 class="drinks-section-headers">Wine</h4>
+                    <h4 class="drinks-section-headers">(Red Wine)</h4>
+                    <li>
+                        <span>Miguel Torres Emblema Cabernet Sauvignon, Chile</span>
+                        <span>
+                            智利米高桃乐丝艾丽娜酒庄印迹赤霞珠干红
+                        </span>
+                    </li>
+                    <li>
+                        <span>La Torre, Shiraz I.G.T, Puglia, Italy</span>
+                        <span>
+                            莱塔瑞红葡萄酒
+                        </span>
+                    </li>
+                    <li>
+                        <span>Stimson Estate Cellars Merlot, Columbia Valley, USA</span>
+                        <span>
+                            美国史汀生酒美乐干红
+                        </span>
+                    </li>
+                    <li>
+                        <span>M. Chapoutier Côtes-du-Rhône Belleruche Rouge, Rhône Valley, France</span>
+                        <span>
+                            法国莎普蒂尔罗纳谷干红
+                        </span>
+                    </li>
+                    <h4 class="drinks-section-headers">(White Wine)</h4>
+                    <li>
+                        <span>Miguel Torres Emblema Sauvignon Blanc, Chile</span>
+                        <span>
+                            智利米高桃乐丝艾丽娜酒庄印迹长相思干白
+                        </span>
+                    </li>
+                    <li>
+                        <span>Tor del Colle Soave  D.O.C., Italy</span>
+                        <span>
+                            托尔山白葡萄酒
+                        </span>
+                    </li>
+                    <li>
+                        <span>Prosecco DOC  Tallero (Sparkling)</span>
+                        <span>
+                            特蒙多莫斯卡托起泡白葡萄酒
+                        </span>
+                    </li>
+
+                    <h4 class="drinks-section-headers">Soft drink</h4>
+                    <li>
+                        <span>Cherry Coke</span>
+                        <span>
+                            樱桃可乐
+                        </span>
+                    </li>
+                    <li>
+                        <span>Dr.Pepper</span>
+                        <span>
+                            胡椒博士
+                        </span>
+                    </li>
+                    <li>
+                        <span>Cream Soda</span>
+                        <span>
+                            奶油苏打水
+                        </span>
+                    </li>
+                    <li>
+                        <span>Heike Mate</span>
+                        <span>
+                            黑客马黛茶
+                        </span>
+                    </li>
+
+				</ul>
+			</div>
+		</div>
+        <!-- END MUEN -->
+	<div class="puplic-footer changeLang">
+		<img src="static/imgs/logo.png" class="logo"/>
+		<div class="item">
+			<a href="about.html"><span class="span-border"><font class="en">ABOUT</font><font class="zh">关于我们</font></span></a>
+			<a href="gallery.html"><span><font class="en">GALLERY</font><font class="zh">画廊</font></span></a>
+		</div>
+		<div class="item">
+			<a href="menu.html"><span class="span-border"><font class="en">MENU</font><font class="zh">菜单</font></span></a>
+			<a href="careers.html"><span><font class="en">CAREERS</font><font class="zh">招聘</font></span></a>
+		</div>
+		<div class="item">
+			<a href="promotions.html"><span class="span-border"><font class="en">PROMOTIONS</font><font class="zh">促销</font></span></a>
+			<a href="contact.html"><span><font class="en">CONTACT US</font><font class="zh">联系我们</font></span></a>
+		</div>
+		<div class="item">
+			<a href="events.html"><span class="span-border"><font class="en">EVENTS</font><font class="zh">促销</font></span></a>
+			<a href="#"><span><font class="en">COMMOM PROBLEMS</font><font class="zh">反馈问题</font></span></a>
+		</div>
+		<div class="other clearfloat">
+			<ul>
+				<li><i class="iconfont icon-weixin"></i></li>
+				<li><i class="iconfont icon-weibo"></i></li>
+				<li><i class="iconfont icon-facebook"></i></li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- END: FOOTER -->
+
+	<script type="text/javascript" src="static/js/jquery.min.js" ></script>
+	<script src="static/js/bootstrap.min.js"></script>
+	<script src="static/js/script.js"></script>
+	</body>
+</html>
+

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+		<meta name="description" content="">
+		<meta name="author" content="">
+	    <meta name="apple-mobile-web-app-capable" content="yes">
+	    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+	    <meta name="format-detection" content="telephone = no" />
+		<meta name="Keywords" content="BOURBON,bourbon" />
+		<title>BOURBON</title>
+		<link rel="shortcut icon" href="static/imgs/logo.png">
+		<link rel="stylesheet" href="static/css/normalize.css" />
+		<link rel="stylesheet" href="static/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="static/css/iconfont.css" />
+		<link rel="stylesheet" href="static/css/style.css" />
+	</head>
+	<style type="text/css">
+		.about-banner{
+			background      : url('static/imgs/careers-banner.jpg') top center no-repeat;
+			background-size : cover;
+			height          : 370px;
+			color           : #fff;
+		}
+		.about-banner:after{
+			content : '';
+			display : block;
+		}
+		.about-banner .banner-inner{
+			position : absolute;
+			top      : 180px;
+			left     : 0;
+			right    : 0;
+		}
+		.about-banner .banner-title{
+			font-size     : 24px;
+			margin-bottom : 30px;
+		}
+		.about-banner .banner-inner .banner-btn .btn{
+			width         : 170px;
+			border-radius : 8px;
+			font-size     : 15px;
+			margin-bottom : 18px;
+		}
+		.about-content .title{
+			font-size     : 18px;
+			color         : #324754;
+			margin-bottom : 10px;
+			text-align    : left;
+		}
+		.about-content .main-inner{
+			padding   : 20px 14px; 
+			font-size : 16px;
+		}
+		#story{
+			background-color : rgba(132,58,28,.2);
+		}
+
+		#profile{
+			text-align     : center;
+			padding-bottom : 45px;
+		}
+		#profile .about-item {
+			padding: 0 40px;
+			margin-bottom: 40px;
+		}
+		#profile .name{
+			line-height : 45px;
+			font-size   : 16px;
+		}
+		#profile .about-img{
+			width : 100%;
+		}
+		#profile .icon-img{
+			width: 10px;
+		}
+		#profile .drop{
+			color        : #324754;
+		}
+		#profile p{
+			margin-top : 40px;
+			text-align : left;
+			display    : none;
+		}
+	</style>
+	<body>
+		<div class="left-menu changeLang">
+			<ul>
+				<li>
+					<a href="about.html">
+						<font class="en">ABOUT</font>
+						<font class="zh">关于我们</font>
+					</a>
+				</li>
+				<li>
+					<a href="menu.html">
+						<font class="en">MENU</font>
+						<font class="zh">菜单</font>
+					</a>
+				</li>
+				<li>
+					<a href="promotions.html">
+						<font class="en">PROMOTIONS</font>
+						<font class="zh">促销</font>
+					</a>
+				</li>
+				<li>
+					<a href="events.html">
+						<font class="en">EVENTS</font>
+						<font class="zh">活动</font>
+					</a>
+				</li>
+				<li>
+					<a href="gallery.html">
+						<font class="en">GALLERY</font>
+						<font class="zh">画廊</font>
+					</a>
+				</li>
+				<li>
+					<a href="careers.html">
+						<font class="en">CAREERS</font>
+						<font class="zh">招聘</font>
+					</a>
+				</li>
+				<li><a href="contact.html">
+					<font class="en">CONTACT US</font>
+					<font class="zh">联系我们</font></a>
+				</li>
+			</ul>
+			<div class="shelter" onclick="javascript:close_menu()"></div>
+		</div>
+
+		<div class="header changeLang">
+			<div class="float-left nav-bar">
+				<a onclick="javascript:open_menu()">
+					<img src="static/imgs/menu.png" class="nav-img" alt="zh"/>
+				</a>
+			</div>
+			<a href="index.html"><img src="static/imgs/logo-nav.png" class="nav-logo"/></a>
+			<div class="float-right nav-bar nav-lang">
+				<a href="javascript:;" class="langToggle"></a>
+			</div>
+		</div>
+		<!-- END: NAVBAR -->
+
+
+		<div class="about-banner changeLang">
+			<div class="banner-inner">
+				<div class="banner-title">
+					<font class="en">COMPANY BACKGROUND</font>
+					<font class="zh">公司背景</font>
+				</div>
+				<div class="banner-btn">
+					<a href="#story"><div class="btn">
+						<font class="en">BRAND STORY</font>
+						<font class="zh">品牌故事</font>
+					</div></a>
+					<a href="#profile"><div class="btn">
+						<font class="en">CHEF'S PROFILE</font>
+						<font class="zh">厨师的形象</font>
+					</div></a>
+				</div>
+			</div>
+		</div>
+		<!-- END: BANNER -->
+
+
+		<div class="about-content changeLang">
+			<div id="story" class="main-inner">
+				<div class="title">
+					<font class="en">BRAND STORY</font>
+					<font class="zh">品牌故事</font>
+				</div>
+				<div class="story-text">
+					<font class="en">The Bourbon Cookhouse is a restaurant and brewery that celebrates barbecue and beer. At lunch we serve traditional market style barbecue, while our dinner service presents a progressive, seasonally-driven menu, all enhanced with house craft brews.</font>
+					<font class="zh">Bourbon是一家庆祝烧烤和啤酒的餐厅和啤酒厂。午餐时，我们提供传统的市场风格的烧烤，而我们的晚餐服务则呈现出一种进步的、季节性的菜单，所有的菜品都是用自制的啤酒酿造的。</font>
+				</div>
+				<div class="story-text">
+					<font class="en">We pride ourselves in running a from-scratch kitchen and procuring high quality, responsibly-sourced animals and seasonal produce.</font>
+					<font class="zh">我们以经营一家白手起家的厨房而自豪，并采购高质量的、有责任的动物和季节性产品。</font>
+				</div>
+			</div>
+			<div id="profile" class="main-inner">
+				<div class="title">
+						<font class="en">CHEF'S PROFILE</font>
+						<font class="zh">厨师的形象</font>
+				</div>
+				<div class="content">
+					<div class="about-item">
+						<img src="static/imgs/about1.jpg" alt="" class="about-img" />
+						<div class="name">
+							<div class="about-title float-left">
+								<font class="en">Justin</font>
+								<font class="zh">Justin</font>
+							</div>
+							<div class="drop float-right">
+								<font class="en">Introduction <img src="static/imgs/down.png" class="icon-img"/></font>
+								<font class="zh">介绍 <img src="static/imgs/down.png" class="icon-img"/></font>
+							</div>
+						</div>
+						<p class="dropdown">
+							<font class="en">Justin’s passion for good food began at a young age, joining a 2 Michelin Star restaurant in the UK at just 18 years of age.  Arriving in Shanghai in 2011, Justin went on to become the Group Executive Chef in over 9 infamous diversified authentic American, Indian, and Mexican restaurants throughout the city.<br/>He has spent years honing his cooking style and desire for brisket perfection. This journey will continue and he’s looking forward to serving you the most authentic American Bar-B-Que in China.</font>
+							<font class="zh">Justin对美食的热爱始于年轻时代，18岁时在英国加入米其林二星餐厅。 Justin于2011年抵达上海，随后成为集团行政总厨，负责整个城市9个多元正宗化的美国，印度和墨西哥著名餐馆。他花了数年的时间磨练自己的烹饪风格并渴望完美。 这次旅程将继续下去，他期待着在中国为您提供最正宗的美国特色烤肉</font>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div> 
+
+		
+		<div class="puplic-footer changeLang">
+			<img src="static/imgs/logo.png" class="logo"/>
+			<div class="item">
+				<a href="about.html"><span class="span-border"><font class="en">ABOUT</font><font class="zh">关于我们</font></span></a>
+				<a href="gallery.html"><span><font class="en">GALLERY</font><font class="zh">画廊</font></span></a>
+			</div>
+			<div class="item">
+				<a href="menu.html"><span class="span-border"><font class="en">MENU</font><font class="zh">菜单</font></span></a>
+				<a href="careers.html"><span><font class="en">CAREERS</font><font class="zh">招聘</font></span></a>
+			</div>
+			<div class="item">
+				<a href="promotions.html"><span class="span-border"><font class="en">PROMOTIONS</font><font class="zh">促销</font></span></a>
+				<a href="contact.html"><span><font class="en">CONTACT US</font><font class="zh">联系我们</font></span></a>
+			</div>
+			<div class="item">
+				<a href="events.html"><span class="span-border"><font class="en">EVENTS</font><font class="zh">促销</font></span></a>
+				<a href="#"><span><font class="en">COMMOM PROBLEMS</font><font class="zh">反馈问题</font></span></a>
+			</div>
+			<div class="other clearfloat">
+				<ul>
+					<li><i class="iconfont icon-weixin"></i></li>
+					<li><i class="iconfont icon-weibo"></i></li>
+					<li><i class="iconfont icon-facebook"></i></li>
+				</ul>
+			</div>
+		</div>
+
+		<!-- END: FOOTER -->
+
+			
+			
+		
+
+
+	<script type="text/javascript" src="static/js/jquery.min.js" ></script>
+	<script src="static/js/bootstrap.min.js"></script>
+	<script src="static/js/script.js"></script>
+	</body>
+</html>
+
+
+
+
+
