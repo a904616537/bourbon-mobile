@@ -207,7 +207,7 @@ a{color: #fff;}
 	url('../photo/photo3.jpg'),
 	url('../photo/photo2.jpg'),
 	url('../photo/photo1.jpg');
-	background-size     : 100% auto;
+	background-size     : inherit;
 	background-position : 0 0, 0 20%,0 40%, 0 60%, 0 80%, 0 100%;
 	background-repeat   : no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
 	padding             : 20px 0px 0px;
