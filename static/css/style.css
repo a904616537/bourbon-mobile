@@ -295,19 +295,22 @@ a{color: #fff;}
 	margin-left      : -69px;
 	font-weight      : bold;  
 }
+.events-content .event-float {
+	position : absolute;
+	bottom   : -30px;
+	width    : 100%;
+}
 .events-content .event-bottomtip{
 	background-color : #324754;
 	color            : #fff;
-	width            : 232px;
-	line-height      : 60px;
-	position         : absolute;
-	bottom           : -30px;
-	left             : 50%;
-	margin-left      : -118px;
+	width            : 300px;
+	line-height      : 30px;
 	font-size        : 16px;
 	text-align       : center;
 	font-weight      : bold;
+	margin           : 0 auto;
 }
+
 .events-content .tip-img{
 	width    : 18px;
 	position : relative;
